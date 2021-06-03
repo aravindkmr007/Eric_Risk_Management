@@ -1,0 +1,59 @@
+.Inbox_Header
+{
+    margin-top: 20px;
+    font-weight: 700;
+}
+.Inbox_Messages
+{
+    margin-top: 10px;
+    overflow-y:auto;
+}
+.Inbox_Message
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-bottom: 2px solid#E7E9EB ;
+}
+.Inbox_Message input
+{
+    flex:0.1;
+}
+.Inbox_Message .Inbox_Img
+{
+    flex: 0.1;
+}
+.Inbox_Message img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.Inbox_Message .Inbox_Name
+{
+    flex:0.15;
+    font-weight: 700;
+}
+.Inbox_Field
+{
+    flex:0.1;
+    padding: 1px;
+    background-color: lightgray;
+    font-weight: 500;
+}
+p{
+    flex: 0.45;
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+    font-size: small;
+    overflow-x: hidden;
+    color: lightgray;
+}
+.Inbox_Messages .MuiSvgIcon-root
+{
+    flex:0.1;
+    color:#E7E9EB  ;
+}

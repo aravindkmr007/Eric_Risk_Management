@@ -1,0 +1,88 @@
+.Navbar
+{
+    flex: 0.2;
+}
+.Navbar_Card
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    height: 85vh;
+    width: 270px;
+    background-color: white;
+    justify-content: space-between;
+}
+.Card
+{
+    display: flex;
+    flex-direction: column;
+}
+.Card_Header 
+{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #E7E9EB;
+}
+.Card_Header img
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+.Avatar_Details
+{
+    display: flex;
+    flex-direction: column;
+}
+.Avatar_Details label
+{
+    font-size: 12px;
+    font-weight: 700;
+}
+.Avatar_Details span
+{
+    font-size: 9px;
+    color: lightgray;
+}
+.Card ul
+{
+    padding: 0px;
+    margin-top: 10px;
+    list-style: none;
+    text-align: left;
+}
+.Card ul li 
+{
+    cursor: pointer;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #80868d ;  
+}
+.Card ul li label
+{
+    margin-left: 30px;
+}
+.Card ul .active
+{
+    color: #1976d2;
+    border-left: 2px solid #054e96;
+    background-color: #0682ff63;
+}
+.Card ul li .MuiSvgIcon-root
+{
+    margin-left: 30px;
+}
+.Navbar_Bottom
+{
+    display: flex;
+    cursor: pointer;
+    justify-content:center;
+    margin-bottom: 20px;
+}
+.Navbar_Bottom label
+{
+    margin-left: 20px;
+}

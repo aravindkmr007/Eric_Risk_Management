@@ -1,0 +1,59 @@
+.Header
+{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%);
+}
+.Header h6
+{
+    flex: 0.2;
+    padding-left: 80px;
+    padding-top: 9px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: bolder;
+}
+.Header input
+{
+    height: 40px;
+    flex: 0.4;
+    background-color: #E7E9EB; 
+    border: 0px;
+    border-radius: 3px;
+}
+.Header input::placeholder
+{
+    padding-left: 20px;
+    font-weight: 500;
+    color: rgba(10, 0, 0, 0.4);
+}
+.Header button
+{
+    flex: 0.05;
+    height: 40px;
+    border: 0px;
+}
+.Header_Alt
+{
+    margin-left: 70px;
+    flex : 0.15;
+}
+.Header_Alt .MuiSvgIcon-root
+{
+    margin-right: 30px;
+}
+.Avatar
+{
+    flex: 0.2;
+}
+.Avatar img
+{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+.Avatar label
+{
+    margin-left: 20px;
+}

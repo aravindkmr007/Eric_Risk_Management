@@ -1,0 +1,101 @@
+.Meeting
+{
+    margin-top: 30px;
+}
+.Meeting_Header
+{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+.Meeting_Cards
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.Meeting_Card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 200px;
+    height: 220px;
+    border-radius: 5px;
+}
+.Meeting_Card_Header
+{
+    flex:0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #E7E9EB;
+}
+.Meeting_Card_Header img
+{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.Meeting_Card_Header_Details
+{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.Meeting_Card_Header_Details label
+{
+    font-size: 9px;
+    color: lightgrey;
+}
+.Meeting_Card_Header_Details span
+{
+    font-size: 9px;
+    color: lightgrey;
+}
+.Meeting_Card_Body
+{
+    flex:0.4;
+    margin-top: 10px;
+    border-bottom: 1px solid #E7E9EB;
+}
+.Meetings_Pending_going
+{
+    display: flex;
+    justify-content: space-around;
+}
+.Meetings_Pending_going label
+{
+    font-size: 9px;
+    color: blue;
+
+}
+.Meetings_Pending_going span
+{
+    font-size: 9px;
+    color: red;
+
+}
+.Meeting_Card_Bottom
+{
+    flex: 0.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+.Meeting_Card_Bottom:hover
+{
+    background-color: #1976d2;
+
+}
+.Meeting_Card_Add_Meeting
+{
+    flex: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #E7E9EB;
+}
+
